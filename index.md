@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 
 ## Education
 
-University of Zambia ![UNZA Logo](/img/unza.svg)<img src="/img/unza.svg" style="width: 10px;" /> | Master of Science in Computer Science (By Research), 2019  
+University of Zambia <img src="/img/unza.svg" style="width: 10%;" /> | Master of Science in Computer Science (By Research), 2019  
 University of Zambia | Bachelor of Science in Computer Science (Software Engineering), 2015
 
 ## Publications
