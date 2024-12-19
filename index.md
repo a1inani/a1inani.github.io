@@ -19,7 +19,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 ## Publications
 
 1. [Simukanga Alinani, Kobayashi Misaki, Etter Lauren, Qin Wenda, Pieciak Rachel, Albuquerque Duarte, Chen Yu-Jen, Betke Margrit, Macleod William, Phiri Jackson, Mwananyanda Lawrence & Gill Christopher: The impact of ear growth on identification rates using an ear biometric system in young infants](/pub/deaeb0c6-5ba6-489e-a273-c829c34d531f_13459_-_lauren_etter.pdf){:target="_blank"}
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+2. [Etter Lauren, Simukanga Alinani, Qin Wenda, Pieciak Rachel, Mwananyanda Lawrence, Betke Margrit, Phiri Jackson, Carbo Caroline, Hamapa Arnold, Gill Christopher: Project SEARCH (Scanning EARs for Child Health): validating an ear biometric tool for patient identification in Zambia](/pub/7db8edd4-48c8-4260-b506-ad8784a7fe41_13197_-_lauren_etter.pdf){:target="_blank"}
+3. [Simukanga Alinani, Phiri Jackson, Nyirenda Mayumbo, & Kalumbilo-Kabemba Monica: E-Governance Systems: A Case Study of the Development of a Small-Scale Farmer Database](/pub/dkunda,+Journal+manager,+2_Alinani_Simukanga_ZJICT_Paper.pdf){:target="_blank"}
+4. [Simukanga Alinani, Muhone Madaliso, Mulenga Joseph, Phiri Jackson, & Nyirenda Mayumbo: Creation of an Agricultural Geographical Information System](/pub/dkunda,+Simukanga+-+Zambia+ICT+Journal.pdf){:target="_blank"}
+
+## Conference Presentations
+
+1. [](){:target="_blank"}
 
 ## Typography
 
