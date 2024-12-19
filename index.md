@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 
 ## Publications
 
-1. [Simukanga Alinani, Kobayashi Misaki, Etter Lauren, Qin Wenda, Pieciak Rachel, Albuquerque Duarte, Chen Yu-Jen, Betke Margrit, Macleod William, Phiri Jackson, Mwananyanda Lawrence & Gill Christopher: The impact of ear growth on identification rates using an ear biometric system in young infants](/pub/deaeb0c6-5ba6-489e-a273-c829c34d531f_13459_-_lauren_etter.pdf) 
+1. [Simukanga Alinani, Kobayashi Misaki, Etter Lauren, Qin Wenda, Pieciak Rachel, Albuquerque Duarte, Chen Yu-Jen, Betke Margrit, Macleod William, Phiri Jackson, Mwananyanda Lawrence & Gill Christopher: The impact of ear growth on identification rates using an ear biometric system in young infants](/pub/deaeb0c6-5ba6-489e-a273-c829c34d531f_13459_-_lauren_etter.pdf){:target="_blank"}
 2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
 
 ## Typography
