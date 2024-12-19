@@ -31,27 +31,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 4. [Simukanga Alinani, Phiri Jackson, Nyirenda Mayumbo, & Kalumbilo-Kabemba Monica: ICT in Governance Systems: A Case Study of the FISP Farmer Registration System](/pub/ZAPUC18.pdf){:target="_blank"}
 5. [Chihana Sipiwe, Phiri Jackson, Kunda Douglas, & Simukanga Alinani: Securing Grain in Transit for the Food Reserve Agency Based on the Cloud Model](/pub/34-136-1-PB.pdf){:target="_blank"}
 
-## Typography
+## Honours and Awards
 
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+1. IEEE International Joint Conference of Biometrics (IJCB) — Best Poster Award for “Age-constrained Ear Recognition: The EICZA Dataset and SASE Baseline Model”, Qin, Wenda; Betke, Margrit; Etter, Lauren; Simukanga, Alinani; Gill, Christopher, 2023
+2. University of Zambia, Lusaka, Zambia — Best Graduating Male Student in the School of Natural Sciences, 2015
+3. University of Zambia, Lusaka, Zambia — Dean’s Prize - Best Overall Third-Year Student, 2014
