@@ -3,24 +3,15 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
-
-* Phone: [+91-123123](tel:+91-123123)
+* Email: alinani.#simukanga@cs.unza.zm alinani.#simukanga@zcasu.edu.zm (Remove the #)
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
+> Postnet 220, Private Bag E891, 
 >
-> London
+> Lusaka
 >
-> United Kingdom
+> Zambia
 
----
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
