@@ -3,7 +3,10 @@ layout: default
 is_contact: true
 ---
 
-* Email: alinani.#simukanga@cs.unza.zm alinani.#simukanga@zcasu.edu.zm (Remove the #)
+* Email: 
+alinani.#simukanga@cs.unza.zm 
+alinani.#simukanga@zcasu.edu.zm 
+(Remove the #)
 
 ---
 
