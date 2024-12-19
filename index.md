@@ -4,19 +4,21 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+Hi! I am a lecturer under the School of Computer Science at the University of Edenberg.
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
-
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+I also teach part-time at ZCAS University.
 
 ## Research Interest
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
 
+## Experience
+
+## Education
+
 ## Publications
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
+1. [Simukanga Alinani, Kobayashi Misaki, Etter Lauren, Qin Wenda, Pieciak Rachel, Albuquerque Duarte, Chen Yu-Jen, Betke Margrit, Macleod William, Phiri Jackson, Mwananyanda Lawrence & Gill Christopher: The impact of ear growth on identification rates using an ear biometric system in young infants](/pub/deaeb0c6-5ba6-489e-a273-c829c34d531f_13459_-_lauren_etter.pdf) 
 2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
 
 ## Typography
