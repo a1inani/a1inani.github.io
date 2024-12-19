@@ -1,6 +1,6 @@
 title: Researcher
 url: "https://a1inani.github.io/"
-baseurl: "/index"
+baseurl: "/"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -16,8 +16,6 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
