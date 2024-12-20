@@ -41,15 +41,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
         <tr>
             <td colspan="3">
                 <ul>
-                    <li>Lecturer of *Computer Architecture and Organization* and *Programming with Python*.</li>
-                    <li>Coordinator of Undergraduate and Postgraduate classes.</li>
+                    <li>Taught *Cyber Security Operations (CIT4351)* to full-time, part-time, and distance students (21). Organised and conducted laboratory sessions to familiarise students with commonly used tools in cybersecurity.</li>
+                    <li>Taught *Component and Connection Security (CIT3362)* and *IoT Fundamentals: IoT Security (CIT3352)* to full-time, part-time, and distance students (18).</li>
                 </ul>    
             </td>
         </tr>
     </tbody>
 </table>
-
-<img src="/img/uoe.png" style="width: 40px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
 
 ## Education
 
