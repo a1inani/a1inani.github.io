@@ -10,7 +10,13 @@ I also teach part-time at ZCAS University.
 
 ## Research Interest
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+My research interests include:
+
+- **Cybersecurity**: Focused on threat detection, mitigation strategies, and secure system design.
+- **Internet of Things (IoT)**: Investigating security challenges and solutions in IoT environments, including device authentication and data privacy.
+- **Software Engineering**: Studying software development methodologies, quality assurance, and the application of machine learning in software engineering.
+- **Artificial Intelligence**: Applying AI and machine learning algorithms to solve complex problems in various domains.
+- **Educational Technology**: Developing and evaluating technological tools to enhance teaching and learning in computer science education.
 
 ## Experience
 
