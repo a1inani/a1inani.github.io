@@ -15,6 +15,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 ## Experience
 
 <table>
+    <thead>
+        <tr>
+            <th>Layer 1</th>
+            <th>Layer 2</th>
+            <th>Layer 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>L1 Name</td>
+            <td rowspan=2>L2 Name A</td>
+            <td>L3 Name A</td>
+        </tr>
+        <tr>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+            <td>L3 Name C</td>
+        </tr>
+        <tr>
+            <td>L3 Name D</td>
+        </tr>
+    </tbody>
+</table>
+<table>
     <tbody>
         <tr>
             <td><img src="/img/uoe.png" style="width: 40px;" /></td>
@@ -23,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
             <td>Lecturer</td>
         </tr>
         <tr>
-            <td>
+            <td colspan="3">
                 <ul>
                     <li>Lecturer of Computer Architecture and Organization and Programming with Python.</li>
                     <li>Coordinator of Undergraduate and Postgraduate classes.</li>
@@ -32,9 +58,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
         </tr>
     </tbody>
 </table>
+
 <img src="/img/uoe.png" style="width: 40px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
-Lecturer of Computer Architecture and Organization and Programming with Python.
-Coordinator of Undergraduate and Postgraduate classes.  
+=
 
 
 ## Education
