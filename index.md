@@ -36,7 +36,7 @@ My research interests include:
 - Conducted tests on the longitudinal ear dataset to demonstrate application performance with growth as a factor.
 - Authored a paper on the growth study results.
 
-<img src="/img/equip.jpg" style="width: 100px;" /> | EQUIP Lusaka, Zambia | 2020 | Application Developer
+<img src="/img/equip.png" style="width: 100px;" /> | EQUIP Lusaka, Zambia | 2020 | Application Developer
 
 - Assisted in developing the Project SEARCH application on the Androidplatform.
 - Worked closely with personnel in Boston to analyse data, interpret analysis, and incorporate changes into the app.
