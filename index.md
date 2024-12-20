@@ -19,10 +19,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
     </thead>
     <tbody>
         <tr>
-            <td><img src="/img/uoe.png" style="width: 40px;" /></td>
+            <td rowspan="2"><img src="/img/uoe.png" style="width: 40px;" /></td>
             <td>University of Edenberg</td>
             <td>8th July 2024 to Present<td>
             <td>Lecturer</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <ul>
+                    <li>Lecturer of *Computer Architecture and Organization* and *Programming with Python*.</li>
+                    <li>Coordinator of Undergraduate and Postgraduate classes.</li>
+                </ul>    
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2"><img src="/img/zcasu.png" style="width: 40px;" /></td>
+            <td>ZCAS University</td>
+            <td>28th February 2024 to Present<td>
+            <td>Part-time Lecturer</td>
         </tr>
         <tr>
             <td colspan="3">
