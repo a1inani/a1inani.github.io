@@ -14,7 +14,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 
 ## Experience
 
-<img src="/img/uoe.png" style="height: 40px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
+<table>
+    <tbody>
+        <tr>
+            <td><img src="/img/uoe.png" style="width: 40px;" /></td>
+            <td>University of Edenberg</td>
+            <td>8th July 2024 to Present<td>
+            <td>Lecturer</td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Lecturer of Computer Architecture and Organization and Programming with Python.</li>
+                    <li>Coordinator of Undergraduate and Postgraduate classes.</li>
+                </ul>    
+            </td>
+        </tr>
+    </tbody>
+</table>
+<img src="/img/uoe.png" style="width: 40px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
 Lecturer of Computer Architecture and Organization and Programming with Python.
 Coordinator of Undergraduate and Postgraduate classes.  
 
