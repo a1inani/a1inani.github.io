@@ -3,12 +3,14 @@ layout: default
 is_contact: false
 ---
 
-## MicrocontrollerShenanigans
+## Projects
+---
+### MicrocontrollerShenanigans
 
 
 
 ---
 
-## PS2_Projects
+### PS2_Projects
 
 
