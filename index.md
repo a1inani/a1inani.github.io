@@ -14,22 +14,37 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 
 ## Experience
 
-<img src="/img/uoe.png" style="width: 40px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
+<img src="/img/uoe.png" style="width: 60px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
 
 - Lecturer of *Computer Architecture and Organization* and *Programming with Python*.
 - Coordinator of Undergraduate and Postgraduate classes.
 
-<img src="/img/zcasu.png" style="width: 40px;" /> | ZCAS University | 28th February 2024 to Present | Part-time Lecturer
+<img src="/img/zcasu.png" style="width: 100px;" /> | ZCAS University | 28th February 2024 to Present | Part-time Lecturer
 
 - Taught *Cyber Security Operations (CIT4351)* to full-time, part-time, and distance students (21). Organised and conducted laboratory sessions to familiarise students with commonly used tools in cybersecurity.
 - Taught *Component and Connection Security (CIT3362)* and *IoT Fundamentals: IoT Security (CIT3352)* to full-time, part-time, and distance students (18).
 
+<img src="/img/search.jpg" style="width: 100px;" /> | Project SEARCH (Boston University & University of Zambia) | 2018 to 2023 | Application Developer
 
+- Continued work on the SEARCH application.
+- Conducted tests on the longitudinal ear dataset to demonstrate application performance with growth as a factor.
+- Authored a paper on the growth study results.
+
+<img src="/img/equip.jpg" style="width: 100px;" /> | EQUIP Lusaka, Zambia | 2020 | Application Developer
+
+- Assisted in developing the Project SEARCH application on the Androidplatform.
+- Worked closely with personnel in Boston to analyse data, interpret analysis, and incorporate changes into the app.
+- Worked with Dimagi to ensure smooth integration between the CommCare and SEARCH applications.
+
+<img src="/img/unza.svg" style="height: 80px;" /> | University of Zambia | 2017 | Part-time Tutor
+
+- Provided support during the laboratory sessions of the Electronics course.
+- Assisted in the supervision of a few undergraduate capstone projects
 
 ## Education
 
-<img src="/img/unza.svg" style="height: 40px;" /> | University of Zambia | Master of Science in Computer Science (By Research), 2019  
-<img src="/img/unza.svg" style="height: 40px;" /> | University of Zambia | Bachelor of Science in Computer Science (Software Engineering), 2015
+<img src="/img/unza.svg" style="height: 80px;" /> | University of Zambia | Master of Science in Computer Science (By Research), 2019  
+<img src="/img/unza.svg" style="height: 80px;" /> | University of Zambia | Bachelor of Science in Computer Science (Software Engineering), 2015
 
 ## Publications
 
