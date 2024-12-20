@@ -18,8 +18,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 
 ## Education
 
-University of Zambia <img src="/img/unza.svg" style="height: 40px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Master of Science in Computer Science (By Research), 2019  
-University of Zambia <img src="/img/unza.svg" style="height: 40px;" /> | Bachelor of Science in Computer Science (Software Engineering), 2015
+University of Zambia | <img src="/img/unza.svg" style="height: 40px;" /> | Master of Science in Computer Science (By Research), 2019  
+University of Zambia | <img src="/img/unza.svg" style="height: 40px;" /> | Bachelor of Science in Computer Science (Software Engineering), 2015
 
 ## Publications
 
