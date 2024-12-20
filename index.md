@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
         <tr>
             <td colspan="3">
                 <ul>
-                    <li>Lecturer of Computer Architecture and Organization and Programming with Python.</li>
+                    <li>Lecturer of *Computer Architecture and Organization* and *Programming with Python*.</li>
                     <li>Coordinator of Undergraduate and Postgraduate classes.</li>
                 </ul>    
             </td>
