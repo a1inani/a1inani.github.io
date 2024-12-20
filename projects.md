@@ -1,20 +1,14 @@
 ---
 layout: default
-is_contact: true
+is_contact: false
 ---
 
-## Email
+## MicrocontrollerShenanigans
 
-* alinani.#simukanga@cs.unza.zm (Remove the #)
-* alinani.%simukanga@zcasu.edu.zm (Remove the %)
+
 
 ---
 
-## Mailing Address
+## PS2_Projects
 
-> Postnet 220, Private Bag E891, 
->
-> Lusaka
->
-> Zambia
 
