@@ -23,7 +23,7 @@ My research interests include:
 <img src="/img/uoe.png" style="width: 60px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
 
 - Lecturer of *Computer Architecture and Organization* and *Programming with Python*.
-- Coordinator of Undergraduate and Postgraduate classes.
+- Coordinator of Undergraduate and Postgraduate classes under the School of Computer Science.
 
 <img src="/img/zcasu.png" style="width: 150px;" /> | ZCAS University | 28th February 2024 to Present | Part-time Lecturer
 
@@ -38,14 +38,14 @@ My research interests include:
 
 <img src="/img/equip.png" style="width: 115px;" /> | EQUIP Lusaka, Zambia | 2020 | Application Developer
 
-- Assisted in developing the Project SEARCH application on the Androidplatform.
+- Assisted in developing the Project SEARCH application on the Android platform.
 - Worked closely with personnel in Boston to analyse data, interpret analysis, and incorporate changes into the app.
 - Worked with Dimagi to ensure smooth integration between the CommCare and SEARCH applications.
 
 <img src="/img/unza.svg" style="height: 80px;" /> | University of Zambia | 2017 | Part-time Tutor
 
 - Provided support during the laboratory sessions of the Electronics course.
-- Assisted in the supervision of a few undergraduate capstone projects
+- Assisted in the supervision of a few undergraduate capstone projects.
 
 ## Education
 
