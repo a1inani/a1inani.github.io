@@ -63,7 +63,7 @@ My research interests include:
 
 1. [Qin Wenda, Etter Lauren, Simukanga Alinani, Gill Christopher, & Betke Margrit: Age-constrained Ear Recognition: The EICZA Dataset and SASE Baseline Model](/pub/Qin-etal-IJCB-2023.pdf){:target="_blank"}
 2. [Kawesha Francis, Phiri Jackson, & Simukanga Alinani: A Predictive Model to Support Decision Making for the Accreditation of Learning Programmes using Data Mining and Machine Learning](/pub/Paper18.pdf){:target="_blank"}
-3. [Simukanga Alinani, Etter Lauren, Qin Wenda, Pieciak Rachel, Betke Margit, Macleod William, Phiri Jackson & Gill Christopher: Ethical issues associatedwith the development of an ear biometric tool for patient identification in Zambia](/pub/Alinani-Simukanga_GFBR-2022_Theme-2.pdf){:target="_blank"}
+3. [Simukanga Alinani, Etter Lauren, Qin Wenda, Pieciak Rachel, Betke Margit, Macleod William, Phiri Jackson & Gill Christopher: Ethical issues associated with the development of an ear biometric tool for patient identification in Zambia](/pub/Alinani-Simukanga_GFBR-2022_Theme-2.pdf){:target="_blank"}
 4. [Simukanga Alinani, Phiri Jackson, Nyirenda Mayumbo, & Kalumbilo-Kabemba Monica: ICT in Governance Systems: A Case Study of the FISP Farmer Registration System](/pub/ZAPUC18.pdf){:target="_blank"}
 5. [Chihana Sipiwe, Phiri Jackson, Kunda Douglas, & Simukanga Alinani: Securing Grain in Transit for the Food Reserve Agency Based on the Cloud Model](/pub/34-136-1-PB.pdf){:target="_blank"}
 
