@@ -6,8 +6,6 @@ layout: default
 
 Hi! I am a lecturer under the School of Computer Science at the University of Edenberg.
 
-I also teach part-time at ZCAS University.
-
 ## Research Interest
 
 My research interests include:
@@ -22,10 +20,11 @@ My research interests include:
 
 <img src="/img/uoe.png" style="width: 60px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
 
-- Lecturer of *Computer Architecture and Organization* and *Programming with Python*.
-- Coordinator of Undergraduate and Postgraduate classes under the School of Computer Science.
+- Taught *CSE111 - Introduction to Information Technology*, *CSE113 - Computer Architecture and Organization*, *CSE114 - Programming with Python*, *CSE122 - Object-Oriented Programming with C++*, *CSE124 - Operating Systems* and *CSE125 - Data Structures and Algorithms*.
+- Currently lecturing of *CSE114 - Programming with Python*, *CSE122 - Object-Oriented Programming with C++*, *CSE124 - Operating Systems* and *CSE125 - Data Structures and Algorithms*.
+- Previously I was the Program Coordinator of Undergraduate and Postgraduate classes under the School of Computer Science.
 
-<img src="/img/zcasu.png" style="width: 150px;" /> | ZCAS University | 28th February 2024 to Present | Part-time Lecturer
+<img src="/img/zcasu.png" style="width: 150px;" /> | ZCAS University | 28th February 2024 to 3rd January 2025 | Part-time Lecturer
 
 - Taught *Cyber Security Operations (CIT4351)* to full-time, part-time, and distance students (21). Organised and conducted laboratory sessions to familiarise students with commonly used tools in cybersecurity.
 - Taught *Component and Connection Security (CIT3362)* and *IoT Fundamentals: IoT Security (CIT3352)* to full-time, part-time, and distance students (18).
