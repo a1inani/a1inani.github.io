@@ -21,7 +21,7 @@ My research interests include:
 <img src="/img/uoe.png" style="width: 60px;" /> | University of Edenberg | 8th July 2024 to Present | Lecturer
 
 - Taught *CSE111 - Introduction to Information Technology*, *CSE113 - Computer Architecture and Organization*, *CSE114 - Programming with Python*, *CSE122 - Object-Oriented Programming with C++*, *CSE124 - Operating Systems* and *CSE125 - Data Structures and Algorithms*.
-- Currently lecturing of *CSE114 - Programming with Python*, *CSE122 - Object-Oriented Programming with C++*, *CSE124 - Operating Systems* and *CSE125 - Data Structures and Algorithms*.
+- Currently lecturing *CSE114 - Programming with Python*, *CSE122 - Object-Oriented Programming with C++*, *CSE124 - Operating Systems* and *CSE125 - Data Structures and Algorithms*.
 - Previously I was the Program Coordinator of Undergraduate and Postgraduate classes under the School of Computer Science.
 
 <img src="/img/zcasu.png" style="width: 150px;" /> | ZCAS University | 28th February 2024 to 3rd January 2025 | Part-time Lecturer
