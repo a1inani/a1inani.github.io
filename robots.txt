@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://a1inani.github.io/sitemap.xml
