@@ -47,17 +47,17 @@
       "location": "Lusaka, Zambia",
       "url": "https://www.unza.zm/",
       "area": "Computer Science",
-      "studyType": "MSc",
+      "studyType": "Master of Science in Computer Science",
       "startDate": "2019-01-01",
       "endDate": "2018-01-01",
-      "courses": ["Supervisor: Dr. Jackson Phiri & Dr. Mayumbo Nyirenda", "Topic: Automation of the Grain Purchasing Process for Zambia's Food Reserve Agency", "Research area: ICT4D and Remote Sensing"]
+      "courses": ["Supervisors: Dr. Jackson Phiri & Dr. Mayumbo Nyirenda", "Topic: Automation of the Grain Purchasing Process for Zambia's Food Reserve Agency", "Research area: ICT4D and Remote Sensing"]
     },
     {
       "institution": "University of Zambia",
       "location": "Lusaka, Zambia",
       "url": "https://www.unza.zm/",
       "area": "Computer Science",
-      "studyType": "BSc (Software Engineering)",
+      "studyType": "Bachelor of Science (Software Engineering)",
       "startDate": "2015-01-01",
       "endDate": "2012-01-01",
       "courses": ["Introduction to Chemistry 1", "Cells and Molecules 1", "Introductory Physics 1", "Mathematical Methods 1", "Introduction to Chemistry 2", "Cells and Molecules 2", "Introductory Physics 2", "Mathematical Methods 2", "Introduction to Programming", "Introduction to Computer Systems", "Introduction to Operating Systems", "Mathematical Methods 3", "Programming 2", "Mathematical Methods 4", "Fundamentals of Computer Architecture", "Introduction to Databases and File Systems", "Programming Languages Design & Implementation", "Algorithm and Complexity", "Fundamentals of Artificial Intelligence", "Advanced Databases", "Software Engineering", "IT Project Management", "Data Communication & Networks", "Graphics and Visual Computing", "Advanced Software Engineering", "Numerical Analysis", "Distributed Systems", "Multimedia and Human Computer Interactions"]
