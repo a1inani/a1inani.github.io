@@ -1,7 +1,8 @@
 ---
 layout: post
 title: PS2 Development with AthenaEnv
-date: 2025-10-08 16:13:16
+date: 2025-10-08
+featured: true
 description: Getting Started in PS2 Development
 tags: PS2-Development, AthenaEnv
 categories: Game Development
