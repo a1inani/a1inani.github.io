@@ -5,7 +5,7 @@ date: 2025-10-08
 featured: true
 description: Getting Started in PS2 Development
 tags: PS2-Development, AthenaEnv
-categories: Game Development
+categories: Game-Development
 ---
 
 For the better part of a year, I've been enamoured by the idea of doing full on game development. About a decade ago I tinkered around in Unity (and Blender), under the guidance of a YouTube playlist. I built one simple game and my interest ended there. A couple of years later, I got my hands on a Phat PAL PS2 (enter model number here) and a FreeMcBoot memory card. This got me thinking, what if I gave PS2 game development a try? What is it like to write game code that runs on bare metal? No operating system or hypervisor to run on top of.
