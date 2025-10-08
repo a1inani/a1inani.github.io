@@ -62,17 +62,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/ps2_development_with_athenaenv/";
           
         },
-      },{id: "post-ps2-development-with-athenaenv",
-        
-          title: "Ps2 development with athenaenv",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/PS2-Development-with-AthenaEnv/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
