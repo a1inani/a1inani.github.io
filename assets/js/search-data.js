@@ -51,7 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-ps2-development-with-athenaenv",
+        
+          title: "PS2 Development with AthenaEnv",
+        
+        description: "Getting Started in PS2 Development",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ps2_development_with_athenaenv/";
+          
+        },
+      },{id: "post-ps2-development-with-athenaenv",
+        
+          title: "Ps2 development with athenaenv",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/PS2-Development-with-AthenaEnv/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
