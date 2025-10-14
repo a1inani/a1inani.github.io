@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-ps2-development-with-athenaenv",
+        },{id: "post-building-isocreator",
+        
+          title: "Building IsoCreator",
+        
+        description: "Creating a C# tool for ISO creation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/isocreator/";
+          
+        },
+      },{id: "post-ps2-development-with-athenaenv",
         
           title: "PS2 Development with AthenaEnv",
         
