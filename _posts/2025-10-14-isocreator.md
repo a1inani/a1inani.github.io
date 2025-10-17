@@ -62,7 +62,7 @@ So this works, and would be fine for my uses. The vast majority of users on Wind
 
 So I set up a new project in Visual Studio, using the "Windows Forms App (.NET Framework)" example project. The default Form1.cs file was deleted, and everything was defined with the Program.cs file. The window looks as follows:
 
-{% include figure.liquid loading="eager" path="assets/img/isocreator_win1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/isocreator_win1.png" class="img-fluid rounded z-depth-1" zoomable=false %}
 
 #### Next Steps
 - General UX improvements
