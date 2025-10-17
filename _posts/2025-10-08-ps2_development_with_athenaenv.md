@@ -22,15 +22,18 @@ AthenaEnv uses a slightly modified version of the QuickJS interpreter for JavaSc
 Enough about that for now, lets begin setting up to write some basic code!
 
 #### Setting up the project
-
-
-
-#### ISO Generation
-
-#### Testing on PC (Emulation)
+To get started, all I needed to dp was download the default template from the AthenaEnv GitHub repository linked above. For the purpose of testing,, I also installed the <a href="https://pcsx2.net/downloads/">PCSX2</a> emulator. This comes in handy for quick testing, removing the need to boot up the PlayStation 2 every time I need to test a new build. Other guides online will better describe the setup guide, so I won't spend any time talking about that.
 
 #### First Test Case - 2048
+As a test case, I figured I'd scratch a second itch and take a look at the code generation capabilities of <a href="https://claude.ai">Claude</a>. So I pointed it to the GitHub repository holding the JavaScript 2048 game I picked as the test case (<a href="https://github.com/gd4Ark/2048">link</a>), the AthenaEnv repository, and basically told it to port that code to that platform. Below is what the web game looks like in a browser:
 
+{% include figure.liquid loading="eager" path="assets/img/2048.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+Now the initial version wasn't the best, but after fiddling with it a bit, I got it to look like this:
+
+{% include figure.liquid loading="eager" path="assets/img/2048-ps2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+I still need to do a bit of testing on it, I'm not sure if it is a key binding issue on my emulator but I'm struggling to get the game to begin in initial tests. I will then have to a couple of tests on device before I am happy sharing an ISO version. 
 
 #### Next Steps
 
