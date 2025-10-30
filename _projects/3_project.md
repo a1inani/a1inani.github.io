@@ -1,12 +1,8 @@
 ---
 layout: page
 title: Xbox One Development - UWP
-description: 
-img: 
+description:
+img:
 importance: 3
 category: fun
 ---
-
-
-
-
