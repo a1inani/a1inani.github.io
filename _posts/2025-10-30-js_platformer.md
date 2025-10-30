@@ -41,6 +41,16 @@ index.html
 
 style.css
 ```css
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 canvas {
   border: 2px solid white;
   background-color: black;
@@ -140,16 +150,6 @@ update();
 
 #### Finished Game
 <style>
-body {
-  margin: 0;
-  overflow: hidden;
-  background: #222;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 canvas {
   border: 2px solid white;
   background-color: black;
