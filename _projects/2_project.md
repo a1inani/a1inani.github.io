@@ -1,12 +1,8 @@
 ---
 layout: page
 title: PlayStation 2 Development with AthenaEnv
-description: 
-img: 
+description:
+img:
 importance: 2
 category: fun
 ---
-
-
-
-
