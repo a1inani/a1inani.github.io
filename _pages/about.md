@@ -6,7 +6,7 @@ subtitle: Academic, Software Engineer, Tech Enthusiast
 
 profile:
   align: right
-  image: 
+  image:
   image_circular: false # crops the image to make it circular
   more_info: >
 
