@@ -62,7 +62,7 @@ ninja.data = [{
         
           title: "JavaScript Game Development 1 - Platformer Basics",
         
-        description: "Creating a C# tool for ISO creation",
+        description: "Building a simple platformer in JavaScript",
         section: "Posts",
         handler: () => {
           
