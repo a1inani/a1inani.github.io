@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-building-isocreator",
+        },{id: "post-javascript-game-development-1-platformer-basics",
+        
+          title: "JavaScript Game Development 1 - Platformer Basics",
+        
+        description: "Creating a C# tool for ISO creation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/js_platformer/";
+          
+        },
+      },{id: "post-building-isocreator",
         
           title: "Building IsoCreator",
         
