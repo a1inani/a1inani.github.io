@@ -1,12 +1,8 @@
 ---
 layout: page
 title: ISO Creator
-description: 
-img: 
+description:
+img:
 importance: 1
 category: fun
 ---
-
-
-
-
