@@ -49,8 +49,12 @@
 <span class="nb">document</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">keydown</span><span class="dl">"</span><span class="p">,</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">keys</span><span class="p">[</span><span class="nx">e</span><span class="p">.</span><span class="nx">code</span><span class="p">]</span> <span class="o">=</span> <span class="kc">true</span><span class="p">);</span>
 <span class="nb">document</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">keyup</span><span class="dl">"</span><span class="p">,</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">keys</span><span class="p">[</span><span class="nx">e</span><span class="p">.</span><span class="nx">code</span><span class="p">]</span> <span class="o">=</span> <span class="kc">false</span><span class="p">);</span>
 
+<span class="kd">let</span> <span class="nx">gameWon</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+
 <span class="kd">function</span> <span class="nf">update</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">if </span><span class="p">(</span><span class="nx">keys</span><span class="p">[</span><span class="dl">"</span><span class="s2">Space</span><span class="dl">"</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="nx">player</span><span class="p">.</span><span class="nx">grounded</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if </span><span class="p">(</span><span class="nx">gameWon</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+    <span class="k">if </span><span class="p">(</span><span class="nx">keys</span><span class="p">[</span><span class="dl">"</span><span class="s2">KeyA</span><span class="dl">"</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="nx">player</span><span class="p">.</span><span class="nx">grounded</span><span class="p">)</span> <span class="p">{</span>
         <span class="nx">player</span><span class="p">.</span><span class="nx">dy</span> <span class="o">=</span> <span class="nx">player</span><span class="p">.</span><span class="nx">jumpPower</span><span class="p">;</span>
         <span class="nx">player</span><span class="p">.</span><span class="nx">grounded</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
     <span class="p">}</span>
@@ -61,17 +65,19 @@
     <span class="nx">player</span><span class="p">.</span><span class="nx">dy</span> <span class="o">+=</span> <span class="nx">player</span><span class="p">.</span><span class="nx">gravity</span><span class="p">;</span>
     <span class="nx">player</span><span class="p">.</span><span class="nx">y</span> <span class="o">+=</span> <span class="nx">player</span><span class="p">.</span><span class="nx">dy</span><span class="p">;</span>
 
+    <span class="nf">checkCollisions</span><span class="p">();</span>
+
     <span class="k">if </span><span class="p">(</span>
         <span class="nx">player</span><span class="p">.</span><span class="nx">x</span> <span class="o">&lt;</span> <span class="nx">goal</span><span class="p">.</span><span class="nx">x</span> <span class="o">+</span> <span class="nx">goal</span><span class="p">.</span><span class="nx">width</span> <span class="o">&amp;&amp;</span>
         <span class="nx">player</span><span class="p">.</span><span class="nx">x</span> <span class="o">+</span> <span class="nx">player</span><span class="p">.</span><span class="nx">width</span> <span class="o">&gt;</span> <span class="nx">goal</span><span class="p">.</span><span class="nx">x</span> <span class="o">&amp;&amp;</span>
         <span class="nx">player</span><span class="p">.</span><span class="nx">y</span> <span class="o">&lt;</span> <span class="nx">goal</span><span class="p">.</span><span class="nx">y</span> <span class="o">+</span> <span class="nx">goal</span><span class="p">.</span><span class="nx">height</span> <span class="o">&amp;&amp;</span>
         <span class="nx">player</span><span class="p">.</span><span class="nx">y</span> <span class="o">+</span> <span class="nx">player</span><span class="p">.</span><span class="nx">height</span> <span class="o">&gt;</span> <span class="nx">goal</span><span class="p">.</span><span class="nx">y</span>
     <span class="p">)</span> <span class="p">{</span>
+        <span class="nx">gameWon</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
         <span class="nf">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">You win!</span><span class="dl">"</span><span class="p">);</span>
         <span class="nb">document</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nf">reload</span><span class="p">();</span>
     <span class="p">}</span>
 
-    <span class="nf">checkCollisions</span><span class="p">();</span>
     <span class="nf">draw</span><span class="p">();</span>
     <span class="nf">requestAnimationFrame</span><span class="p">(</span><span class="nx">update</span><span class="p">);</span>
 <span class="p">}</span>
@@ -137,8 +143,12 @@ let keys = {};
 document.addEventListener("keydown", (e) => keys[e.code] = true);
 document.addEventListener("keyup", (e) => keys[e.code] = false);
 
+let gameWon = false;
+
 function update() {
-    if (keys["Space"] && player.grounded) {
+    if (gameWon) return;
+
+    if (keys["KeyA"] && player.grounded) {
         player.dy = player.jumpPower;
         player.grounded = false;
     }
@@ -149,17 +159,19 @@ function update() {
     player.dy += player.gravity;
     player.y += player.dy;
 
+    checkCollisions();
+
     if (
         player.x < goal.x + goal.width &&
         player.x + player.width > goal.x &&
         player.y < goal.y + goal.height &&
         player.y + player.height > goal.y
     ) {
+        gameWon = true;
         alert("You win!");
         document.location.reload();
     }
 
-    checkCollisions();
     draw();
     requestAnimationFrame(update);
 }
