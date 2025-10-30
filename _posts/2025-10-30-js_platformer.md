@@ -81,8 +81,12 @@ let keys = {};
 document.addEventListener("keydown", (e) => keys[e.code] = true);
 document.addEventListener("keyup", (e) => keys[e.code] = false);
 
+let gameWon = false;
+
 function update() {
-    if (keys["Space"] && player.grounded) {
+    if (gameWon) return;
+
+    if (keys["KeyA"] && player.grounded) {
         player.dy = player.jumpPower;
         player.grounded = false;
     }
@@ -93,17 +97,19 @@ function update() {
     player.dy += player.gravity;
     player.y += player.dy;
 
+    checkCollisions();
+
     if (
         player.x < goal.x + goal.width &&
         player.x + player.width > goal.x &&
         player.y < goal.y + goal.height &&
         player.y + player.height > goal.y
     ) {
+        gameWon = true;
         alert("You win!");
         document.location.reload();
     }
 
-    checkCollisions();
     draw();
     requestAnimationFrame(update);
 }
@@ -179,8 +185,12 @@ let keys = {};
 document.addEventListener("keydown", (e) => keys[e.code] = true);
 document.addEventListener("keyup", (e) => keys[e.code] = false);
 
+let gameWon = false;
+
 function update() {
-    if (keys["Space"] && player.grounded) {
+    if (gameWon) return;
+
+    if (keys["KeyA"] && player.grounded) {
         player.dy = player.jumpPower;
         player.grounded = false;
     }
@@ -191,17 +201,19 @@ function update() {
     player.dy += player.gravity;
     player.y += player.dy;
 
+    checkCollisions();
+
     if (
         player.x < goal.x + goal.width &&
         player.x + player.width > goal.x &&
         player.y < goal.y + goal.height &&
         player.y + player.height > goal.y
     ) {
+        gameWon = true;
         alert("You win!");
         document.location.reload();
     }
 
-    checkCollisions();
     draw();
     requestAnimationFrame(update);
 }
