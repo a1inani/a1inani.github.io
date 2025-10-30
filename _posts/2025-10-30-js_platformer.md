@@ -2,7 +2,7 @@
 layout: post
 title: JavaScript Game Development 1 - Platformer Basics
 date: 2025-10-30
-description: Creating a C# tool for ISO creation
+description: Building a simple platformer in JavaScript
 tags: JavaScript
 categories: Game-Development
 ---
@@ -41,16 +41,6 @@ index.html
 
 style.css
 ```css
-body {
-  margin: 0;
-  overflow: hidden;
-  background: #222;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 canvas {
   border: 2px solid white;
   background-color: black;
