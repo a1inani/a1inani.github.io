@@ -1,12 +1,8 @@
 ---
 layout: page
 title: Cybersecurity
-description: 
-img: 
+description:
+img:
 importance: 5
 category: fun
 ---
-
-
-
-
