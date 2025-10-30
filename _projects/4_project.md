@@ -1,11 +1,8 @@
 ---
 layout: page
 title: Microcontrollers
-description: 
-img: 
+description:
+img:
 importance: 4
 category: fun
 ---
-
-
-
