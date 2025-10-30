@@ -13,7 +13,17 @@
   <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"game.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div> <p>style.css</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">canvas</span> <span class="p">{</span>
+</code></pre></div></div> <p>style.css</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">overflow</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="nx">#222</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">flex</span><span class="p">;</span>
+  <span class="nl">justify-content</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">align-items</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">100vh</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">canvas</span> <span class="p">{</span>
   <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="nx">white</span><span class="p">;</span>
   <span class="nl">background-color</span><span class="p">:</span> <span class="nx">black</span><span class="p">;</span>
 <span class="p">}</span>
@@ -104,7 +114,7 @@
 <span class="p">}</span>
 
 <span class="nf">update</span><span class="p">();</span>
-</code></pre></div></div> <h4 id="finished-game">Finished Game</h4> <style>body{margin:0;overflow:hidden;background:#222;display:flex;justify-content:center;align-items:center;height:100vh}canvas{border:2px solid white;background-color:black}</style> <canvas id="gameCanvas" width="800" height="400"></canvas> <script>
+</code></pre></div></div> <h4 id="finished-game">Finished Game</h4> <style>canvas{border:2px solid white;background-color:black}</style> <canvas id="gameCanvas" width="800" height="400"></canvas> <script>
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
