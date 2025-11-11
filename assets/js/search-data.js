@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-javascript-game-development-1-platformer-basics",
+        },{id: "post-foundrydb-developer-log-1",
+        
+          title: "FoundryDB Developer Log 1",
+        
+        description: "Creating a toy SQL database in Python",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/foundrydb_devlog_1/";
+          
+        },
+      },{id: "post-javascript-game-development-1-platformer-basics",
         
           title: "JavaScript Game Development 1 - Platformer Basics",
         
