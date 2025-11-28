@@ -5,15 +5,23 @@
     "image": "",
     "email": "alinani.simukanga@cs.unza.zm",
     "url": "https://a1inani.github.io/",
-    "summary": "I am a lecturer under the School of Computer Science and IT at the University of Edenberg."
+    "summary": "I am a lecturer under the School of Natural and Applied Sciences, Department of Computing and Informatics at the University of Zambia."
   },
   "work": [
+    {
+      "name": "The University of Zambia",
+      "Position": "Lecturer II",
+      "url": "https://www.unza.zm/",
+      "startDate": "2025-12-15",
+      "endDate": "Present",
+      "summary": ""
+    },
     {
       "name": "University of Edenberg",
       "position": "Lecturer (B) - School of Computer Science and IT",
       "url": "https://www.ue.ac.zm",
       "startDate": "2024-07-08",
-      "endDate": "Present",
+      "endDate": "2025-12-12",
       "summary": "Taught CSE111 - Introduction to Information Technology, CSE113 - Computer Architecture and Organization, CSE114 - Programming with Python, CSE122 - Object-Oriented Programming with C++, CSE124 - Operating Systems and CSE125 - Data Structures and Algorithms. Held the role of Program Coordinator for Undergraduate and Postgraduate programs under the School of Computer Science & IT."
     },
     {
