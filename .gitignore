@@ -3,6 +3,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.jekyll-tmp
 .DS_store
 .ruby-version
 .tweet-cache

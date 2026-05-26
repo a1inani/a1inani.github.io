@@ -51,6 +51,11 @@ search_enabled: true
 socials_in_search: true
 posts_in_search: true
 bib_search: true
+nav_links:
+  - title: CV
+    url: /assets/pdf/Alinani_Simukanga_CV.pdf
+    nav_order: 5
+    download: true
 
 # Dimensions
 max_width: 930px
