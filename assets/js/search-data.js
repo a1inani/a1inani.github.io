@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "FoundryDB Developer Log 1",
         
-        description: "Creating a toy SQL database in Python",
+        description: "Building Phase 1 of a toy SQL database in Python",
         section: "Posts",
         handler: () => {
           
@@ -66,7 +66,7 @@ ninja.data = [{
         
           title: "JavaScript Game Development 1 - Platformer Basics",
         
-        description: "Building a simple platformer in JavaScript",
+        description: "Building a first 2D platformer with JavaScript and HTML5 Canvas",
         section: "Posts",
         handler: () => {
           
@@ -77,7 +77,7 @@ ninja.data = [{
         
           title: "Building IsoCreator",
         
-        description: "Creating a C# tool for ISO creation",
+        description: "Building a C# utility for PlayStation 2 ISO creation",
         section: "Posts",
         handler: () => {
           
@@ -88,7 +88,7 @@ ninja.data = [{
         
           title: "PS2 Development with AthenaEnv",
         
-        description: "Getting Started in PS2 Development",
+        description: "Porting 2048 to PlayStation 2 with AthenaEnv",
         section: "Posts",
         handler: () => {
           
