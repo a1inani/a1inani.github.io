@@ -2,22 +2,22 @@
 layout: post
 title: FoundryDB Developer Log 1
 date: 2025-11-11
-description: Creating a toy SQL database in Python
-tags: FoundryDB SQL Database Python
+description: Building Phase 1 of a toy SQL database in Python
+tags: FoundryDB Python Databases SQL
 categories: Development
 ---
 
-> A behind-the-scenes look at building FoundryDB — a toy SQL database written from scratch in Python.
+> A behind-the-scenes look at building FoundryDB, a toy SQL database written from scratch in Python.
 
-I've got a bit of time on my hands, and the last few blog posts are proof that I have been looking for something to keep me busy. A couple of days ago, I thought, _"What if I built a small database in Python?"_ I've been teaching a course in Python programming the last few semesters, so I'm far from rusty in the language. Plus, it would present a decent optimization challenge I can hopefully throw some algorithms and data structures at further down the line.
+I had a bit of time on my hands and wanted a project that was both practical and technically challenging. A couple of days ago, I asked myself: _"What if I built a small database in Python?"_ I have been teaching Python for the last few semesters, so the language itself was familiar. The challenge was in the systems design.
 
-Now, it all sounds great in theory, but I have never built a database before. Where would I even begin? So I reached for an LLM (ChatGPT in this case) and asked it to generate a roadmap highlighting key concepts that need to be implemented.
+The idea sounded good in theory, but I had never built a database before. To frame the work, I used ChatGPT to draft a roadmap of core features and implementation phases.
 
 ## We'll call it FoundryDB
 
 {% include figure.liquid loading="eager" path="assets/img/banner.png" class="img-fluid rounded z-depth-1" zoomable=false %}
 
-🔗 [GitHub Repository → a1inani/FoundryDB](https://github.com/a1inani/FoundryDB)
+GitHub repository: [a1inani/FoundryDB](https://github.com/a1inani/FoundryDB)
 
 ---
 
@@ -102,6 +102,7 @@ db.execute("SELECT * FROM users;")
 - Append-only writes: simpler recovery and safe for Phase 1
 - Error handling: breaks on corrupted lines gracefully
 - Next: build a basic SQL parser for SELECT and WHERE clauses
+- Benchmarks: not yet measured in this phase (planned for Phase 2+)
 
 ---
 
@@ -143,7 +144,7 @@ twine upload dist/*
 
 ---
 
-### Reflections
+### What I learned
 
 Building even a toy database taught me how critical consistency, atomic writes, and metadata management are. I now understand why mature systems like SQLite are as intricate as they are.
 
@@ -157,7 +158,3 @@ Goals:
 - Expression evaluation
 - Query execution via full table scan
 - More formal AST and error handling
-
----
-
-_Tags: #Python #Databases #FoundryDB #DevLog_

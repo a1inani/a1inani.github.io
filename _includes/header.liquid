@@ -119,12 +119,14 @@
                   </a>
                 </li>
               {% endif %}
-            {% elsif item.url and item.title %}
+            {% elsif item.url and item.title and (item.custom_nav or item.download) %}
               <li class="nav-item">
                 <a
                   class="nav-link"
                   href="{{ item.url | relative_url }}"
-                  {% if item.download %}download{% endif %}
+                  {% if item.download %}
+                    download
+                  {% endif %}
                 >
                   {{- item.title -}}
                 </a>

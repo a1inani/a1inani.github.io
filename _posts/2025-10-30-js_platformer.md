@@ -2,14 +2,14 @@
 layout: post
 title: JavaScript Game Development 1 - Platformer Basics
 date: 2025-10-30
-description: Building a simple platformer in JavaScript
-tags: JavaScript
+description: Building a first 2D platformer with JavaScript and HTML5 Canvas
+tags: JavaScript HTML5-Canvas Game-Development
 categories: Game-Development
 ---
 
-So I gave it some thought, and I think the smart thing to do is put the AthenaEnv idea on pause for a bit. I'll put some time aside to actually learn how to do some basic web development in JavaScript. And this short series will attempt to document that whole journey. I got ChatGPT to plan out a study plan on game development in JavaScript. I'll attempt to follow along with this as I figure out how all this works. We'll stay close to pure JavaScript + HTML5 Canvas (no frameworks).
+I decided to pause the AthenaEnv path for a while and focus on fundamentals. This short series documents my attempt to learn game development in plain JavaScript with HTML5 Canvas, without frameworks.
 
-#### What are you building first?
+## What I am building first
 
 Goal: Create a simple 2D platformer where the player can move and jump.
 
@@ -23,7 +23,7 @@ Topics Covered:
 
 Outcome: You'll have a green box that jumps across platforms and reaches a goal.
 
-### Code
+## Code
 
 index.html
 
@@ -150,113 +150,23 @@ function checkCollisions() {
 update();
 ```
 
-#### Finished Game
+## Running it locally
 
-<style>
-canvas {
-  border: 2px solid white;
-  background-color: black;
-}
-</style>
+1. Save the three files (`index.html`, `style.css`, `game.js`) in one folder.
+2. Open `index.html` in a browser.
+3. Move with left and right arrows.
+4. Press `A` to jump.
 
-<canvas id="gameCanvas" width="800" height="400"></canvas>
+## What I learned
 
-<script>
-const canvas = document.getElementById("gameCanvas");
-const ctx = canvas.getContext("2d");
+- The game loop is the backbone of everything.
+- Collision logic looks simple, but edge cases appear quickly.
+- Small constants (gravity, jump force, speed) heavily affect game feel.
 
-let goal = {x: 700, y: 130, width: 30, height: 30, color: "gold"};
+## Next Steps
 
-let player = {
-    x: 50,
-    y: 300,
-    width: 50,
-    height: 50,
-    color: "lime",
-    dy: 0,
-    gravity: 0.6,
-    jumpPower: -12,
-    grounded: false
-};
-
-let keys = {};
-
-document.addEventListener("keydown", (e) => keys[e.code] = true);
-document.addEventListener("keyup", (e) => keys[e.code] = false);
-
-let gameWon = false;
-
-function update() {
-    if (gameWon) return;
-
-    if (keys["KeyA"] && player.grounded) {
-        player.dy = player.jumpPower;
-        player.grounded = false;
-    }
-
-    if (keys["ArrowRight"]) player.x += 5;
-    if (keys["ArrowLeft"]) player.x -= 5;
-
-    player.dy += player.gravity;
-    player.y += player.dy;
-
-    checkCollisions();
-
-    if (
-        player.x < goal.x + goal.width &&
-        player.x + player.width > goal.x &&
-        player.y < goal.y + goal.height &&
-        player.y + player.height > goal.y
-    ) {
-        gameWon = true;
-        alert("You win!");
-        document.location.reload();
-    }
-
-    draw();
-    requestAnimationFrame(update);
-}
-
-let platforms = [
-    {x: 0, y:350, width: 800, height: 50, color: "gray"},
-    {x: 200, y:250, width: 250, height: 20, color: "gray"},
-    {x: 500, y:180, width: 100, height: 20, color: "gray"},
-];
-
-function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    for (let p of platforms) {
-        ctx.fillStyle = p.color;
-        ctx.fillRect(p.x, p.y, p.width, p.height);
-    }
-
-    ctx.fillStyle = goal.color;
-    ctx.fillRect(goal.x, goal.y, goal.width, goal.height);
-
-    ctx.fillStyle = player.color;
-    ctx.fillRect(player.x, player.y, player.width, player.height);
-}
-
-function checkCollisions() {
-    player.grounded = false;
-    for (let p of platforms) {
-        if (
-            player.x < p.x + p.width &&
-            player.x + player.width > p.x &&
-            player.y + player.height > p.y &&
-            player.y + player.height < p.y + p.height
-        ) {
-            player.y = p.y - player.height;
-            player.dy = 0;
-            player.grounded = true;
-        }
-    }
-}
-
-update();
-</script>
-
-#### Next Steps
-
--
+- Replace `alert()` + page reload with an in-canvas win state UI
+- Add restart and pause controls
+- Improve collision detection to handle side hits and platform edges better
+- Add camera movement and a larger level
+- Add collectible items and a basic score system

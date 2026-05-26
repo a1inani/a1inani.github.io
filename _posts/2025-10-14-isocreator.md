@@ -2,24 +2,27 @@
 layout: post
 title: Building IsoCreator
 date: 2025-10-14
-description: Creating a C# tool for ISO creation
-tags: C# ISO
+description: Building a C# utility for PlayStation 2 ISO creation
+tags: CSharp ISO Tooling
 categories: Game-Development
 ---
 
 So there I was with a full converted PlayStation 2 project in hand and ready to run. Executing it as an ELF file was fine, but I'm trying not to settle for fine. Wouldn't it be nice if it were packaged as an ISO file?
 
-#### Why not use a Proprietary Tool?
+## Why not use a proprietary tool?
 
-Umm, no. Not because it won't get the job done. I'm opposed to the idea of using paid software for what should be a simple and straightforward task. So I guess I'll build it myself.
+I could have used existing paid tools and moved on. Instead, I wanted a lightweight approach I could automate, customize, and share. That pushed me toward building a small utility myself.
 
-#### Building the App
+## Building the app
 
-So as a proof of concept, I started out with building a console app. It relied on the DiscUtils.Iso9660 package to handle ISO creation. It received two parameters: (1) the folder containing the files to include in the image, and (2) the location and filename of the resulting image.
+As a proof of concept, I started with a console app using `DiscUtils.Iso9660` for ISO creation. It accepts two parameters:
+
+- Source folder to include in the image
+- Output path and filename for the generated ISO
 
 It worked!
 
-#### ISO Generation
+## ISO generation
 
 ```c#
 private async Task CreateIsoImageAsync(string sourceFolder, string outputIso)
@@ -61,20 +64,27 @@ private async Task CreateIsoImageAsync(string sourceFolder, string outputIso)
 }
 ```
 
-#### Creating a GUI application
+## Creating a GUI application
 
-So this works, and would be fine for my uses. The vast majority of users on Windows would prefer some kind of GUI, so that was the next target. Implementing the same functionality in a windowed interface, away from the scary black screen.
+The console version was good enough for me, but most Windows users prefer a GUI. So the next step was wrapping the same core logic in a desktop interface.
 
-So I set up a new project in Visual Studio, using the "Windows Forms App (.NET Framework)" example project. The default Form1.cs file was deleted, and everything was defined with the Program.cs file. The window looks as follows:
+I created a new Visual Studio project using "Windows Forms App (.NET Framework)", removed the default `Form1.cs`, and defined the UI from `Program.cs`.
+
+Current UI:
 
 {% include figure.liquid loading="eager" path="assets/img/isocreator_win1.png" class="img-fluid rounded z-depth-1" zoomable=false %}
 
-#### Next Steps
+## What I learned
 
-- General UX improvements
-- Show folder statistics
-- Add Volume Name field
-- Show Folder on complete
-- Emoji Icons
-- Improved logging
-- Cancel button during ISO creation.
+- A small CLI proof of concept is the fastest way to validate core logic.
+- Separating ISO build logic from the UI makes iteration much easier.
+- Good progress reporting matters as much as raw feature completeness in desktop tools.
+
+## Next Steps
+
+- Add a volume name field and validation
+- Show source folder stats before build (file count and total size)
+- Add a cancel button for long-running operations
+- Improve progress and logging clarity
+- Add "Open output folder" on completion
+- Package a portable release with usage docs
