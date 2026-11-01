@@ -404,6 +404,14 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
+      &.cv-link {
+        color: var(--global-text-color);
+
+        &:hover {
+          color: var(--global-theme-color);
+        }
+      }
+
       img {
         width: 3.2rem;
         height: 3.2rem;

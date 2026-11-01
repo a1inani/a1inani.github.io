@@ -36,3 +36,18 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
+
+# Plugin gems that provide managed runtime assets and build-time helpers.
+group :al_folio_plugins do
+    gem 'al_folio_core',    '= 1.0.9'
+    gem 'al_folio_distill', '= 1.0.1'
+    gem 'al_citations',     '= 1.0.1'
+    gem 'al_ext_posts',     '= 1.0.1'
+    gem 'al_search',        '= 1.0.2'
+    gem 'al_icons',         '= 1.0.0'
+end
+
+# Upgrade tooling for incremental migration toward al-folio v1.x.
+group :al_folio_tools do
+    gem 'al_folio_upgrade', '= 1.0.3'
+end
