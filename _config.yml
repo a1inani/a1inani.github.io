@@ -240,18 +240,18 @@ plugins:
   - al_folio_distill
   - al_folio_bootstrap_compat
   - al_cookie
-  # - al_analytics  # TODO: requires template setup
+  - al_analytics
   - al_citations
   - al_ext_posts
-  # - al_img_tools  # TODO: requires template setup
+  - al_img_tools
   - al_search
-  # - al_charts  # TODO: requires template setup
-  # - al_math  # TODO: requires template setup
-  # - al_comments  # TODO: requires template setup
-  # - al_newsletter  # TODO: requires configuration
+  - al_charts
+  - al_math
+  - al_comments
+  - al_newsletter
   - al_email_protect
-  # - al_marimo  # TODO: requires additional dependencies
-  # - al_rtl  # TODO: may require template setup
+  - al_marimo
+  - al_rtl
   - al_icons
 
 # Sitemap settings

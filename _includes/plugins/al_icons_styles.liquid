@@ -1,2 +1,4 @@
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
-<link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+{% comment %}
+  Parse-safe wrapper for al_icons custom tag.
+{% endcomment %}
+{% al_icons_styles %}
