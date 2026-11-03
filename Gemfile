@@ -4,7 +4,6 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'jekyll-3rd-party-libraries'
     gem 'jekyll-archives-v2'
     gem 'jekyll-cache-bust'
     gem 'jekyll-email-protect'
@@ -30,7 +29,7 @@ end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
-    gem 'css_parser'
+    gem 'css_parser', '>= 3.0'
     gem 'feedjira'
     gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
@@ -53,7 +52,6 @@ group :al_folio_plugins do
     gem 'al_analytics',             '= 1.0.2'
     gem 'al_citations',             '= 1.0.1'
     gem 'al_ext_posts',             '= 1.0.3'
-    gem 'al_img_tools',             '= 1.0.3'
     gem 'al_search',                '= 1.0.3'
     gem 'al_charts',                '= 1.0.1'
     gem 'al_math',                  '= 1.0.2'
