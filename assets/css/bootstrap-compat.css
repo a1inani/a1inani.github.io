@@ -1,0 +1,4 @@
+/* Optional Bootstrap compatibility layer placeholder.
+ * Keep this file present so cache-bust lookups do not fail when
+ * al_folio.compat.bootstrap.enabled is temporarily set to true.
+ */

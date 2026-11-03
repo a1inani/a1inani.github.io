@@ -91,7 +91,11 @@
     {% when 'wikipedia_id' %}
       <a href="https://wikipedia.org/wiki/User:{{ social[1] }}" title="Wikipedia"><i class="fa-brands fa-wikipedia-w"></i></a>
     {% when 'work_url' %}
-      <a href="{{ social[1] }}" title="Work"><i class="fa-solid fa-briefcase"></i></a>
+      {% if social[1] contains '.pdf' %}
+        <a href="{{ social[1] | relative_url }}" title="CV" download class="cv-link"><i class="fa-solid fa-file-arrow-down"></i> CV</a>
+      {% else %}
+        <a href="{{ social[1] }}" title="Work"><i class="fa-solid fa-briefcase"></i></a>
+      {% endif %}
     {% when 'x_username' %}
       <a href="https://twitter.com/{{ social[1] }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
     {% when 'youtube_id' %}

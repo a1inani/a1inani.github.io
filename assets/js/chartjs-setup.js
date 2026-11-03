@@ -1,14 +1,14 @@
-$(document).ready(function () {
-  var $canvas = null,
-    $this = null,
-    _ctx = null,
-    _text = "";
-  $(".language-chartjs").each(function () {
-    $this = $(this);
-    $canvas = $("<canvas></canvas>");
-    _text = $this.text();
-    $this.text("").append($canvas);
-    _ctx = $canvas.get(0).getContext("2d");
-    _ctx && _text && new Chart(_ctx, JSON.parse(_text)) && $this.attr("data-processed", true);
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".language-chartjs").forEach((element) => {
+    const canvas = document.createElement("canvas");
+    const chartConfig = element.textContent;
+    element.textContent = "";
+    element.appendChild(canvas);
+
+    const context = canvas.getContext("2d");
+    if (context && chartConfig) {
+      new Chart(context, JSON.parse(chartConfig));
+      element.setAttribute("data-processed", "true");
+    }
   });
 });

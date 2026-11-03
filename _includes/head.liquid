@@ -1,16 +1,28 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
-<!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
-<link
-  rel="stylesheet"
-  href="{{ site.third_party_libraries.mdb.url.css }}"
-  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
-  crossorigin="anonymous"
+<!-- Security: Content Security Policy -->
+<!-- Permissive CSP suitable for academic websites. Allows external images, videos, and common embed services. -->
+<!-- To customize for your needs, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+<meta
+  http-equiv="Content-Security-Policy"
+  content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"
 >
+<style>
+  :root {
+    --max-content-width: {{ site.max_width | default: '930px' }};
+  }
+</style>
 
-{% if page.pretty_table %}
+<!-- Tailwind-first core styles -->
+<link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | relative_url | bust_file_cache }}">
+
+{% if site.al_folio.compat.bootstrap.enabled %}
+  <!-- Optional Bootstrap compatibility layer -->
+  <link rel="stylesheet" href="{{ '/assets/css/bootstrap-compat.css' | relative_url | bust_file_cache }}">
+{% endif %}
+
+{% if page.pretty_table and site.al_folio.compat.bootstrap.enabled %}
   <!-- Bootstrap Table -->
   <link
     defer
@@ -21,9 +33,21 @@
   >
 {% endif %}
 
-<!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
-<link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+{% if page.toc and page.toc.sidebar %}
+  <!-- Tocbot -->
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.tocbot.url.css }}"
+    integrity="{{ site.third_party_libraries.tocbot.integrity.css }}"
+    crossorigin="anonymous"
+  >
+{% endif %}
+
+<!-- Icons -->
+{% if site.plugins contains 'al_icons' %}
+  {% include plugins/al_icons_styles.liquid %}
+{% endif %}
 <link
   defer
   rel="stylesheet"
@@ -39,11 +63,6 @@
   media=""
   id="highlight_theme_light"
 >
-
-{% if page.toc and page.toc.sidebar %}
-  <!-- Sidebar Table of Contents -->
-  <link defer href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet">
-{% endif %}
 
 <!-- Styles -->
 
@@ -67,6 +86,9 @@
   <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
+{% if page.layout == 'cv' and site.plugins contains 'al_folio_cv' and site.al_folio.features.cv.enabled != false %}
+  <link rel="stylesheet" href="{{ '/assets/css/al-folio-cv.css' | relative_url | bust_file_cache }}">
+{% endif %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 {% if site.enable_darkmode %}
@@ -122,68 +144,16 @@
   >
 {% endif %}
 
-{% if page.images %}
-  {% if page.images.compare %}
-    <!-- Image comparison slider -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
-      integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.lightbox2 %}
-    <!-- Lightbox2 -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.lightbox2.url.css }}"
-      integrity="{{ site.third_party_libraries.lightbox2.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.photoswipe %}
-    <!-- Photoswipe -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.photoswipe.url.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.slider %}
-    <!-- Image slider -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.swiper.url.css }}"
-      integrity="{{ site.third_party_libraries.swiper.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.spotlight %}
-    <!-- Spotlight -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.spotlight.url.css }}"
-      integrity="{{ site.third_party_libraries.spotlight.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
-  {% if page.images.venobox %}
-    <!-- Venobox -->
-    <link
-      defer
-      rel="stylesheet"
-      href="{{ site.third_party_libraries.venobox.url.css }}"
-      integrity="{{ site.third_party_libraries.venobox.integrity.css }}"
-      crossorigin="anonymous"
-    >
-  {% endif %}
+{% if site.plugins contains 'al_img_tools' %}
+  <!-- Image Features -->
+  {% include plugins/al_img_tools_styles.liquid %}
 {% endif %}
 
-{% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+{% if site.plugins contains 'al_math' %}
+  {% include plugins/al_math_styles.liquid %}
+{% endif %}
+
+{% if site.enable_cookie_consent and site.plugins contains 'al_cookie' %}
+  <!-- Cookie Consent -->
+  {% include plugins/al_cookie_styles.liquid %}
 {% endif %}

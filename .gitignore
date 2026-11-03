@@ -11,4 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
-.github
+.github/*
+!.github/workflows/
+!.github/workflows/**
+al-folio-upgrade-report.md
