@@ -25,7 +25,7 @@ layout: default
     </div>
   {% endif %}
 
-  {% if site.giscus and page.giscus_comments %}
-    {% include giscus.liquid %}
+  {% if site.plugins contains 'al_comments' %}
+    {% include plugins/al_comments.liquid %}
   {% endif %}
 </div>
