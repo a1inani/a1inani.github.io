@@ -32,7 +32,6 @@ All al-folio ecosystem plugins enabled and functional:
 | al_email_protect          | 1.0.1   | Email obfuscation from scrapers                               |
 | al_ext_posts              | 1.0.3   | External blog post integration                                |
 | al_icons                  | 1.0.0   | Icon system support                                           |
-| al_img_tools              | 1.0.3   | Responsive image processing                                   |
 | al_marimo                 | 1.0.0   | Interactive Marimo notebook support                           |
 | al_math                   | 1.0.2   | Mathematical notation rendering                               |
 | al_newsletter             | 1.0.0   | Newsletter signup (Loops integration)                         |
@@ -45,7 +44,6 @@ All al-folio ecosystem plugins enabled and functional:
 
 Added modern asset handling and social features:
 
-- jekyll-3rd-party-libraries
 - jekyll-cache-bust
 - jekyll-socials
 - Plus 23 other modern Jekyll plugins
@@ -66,10 +64,9 @@ Added modern asset handling and social features:
 
 ### 5. ✅ Plugin Template Integration
 
-- Copied 21 plugin template files from gems to `_includes/plugins/`
+- Copied 19 plugin template files from gems to `_includes/plugins/`
 - All templates now available for theme rendering
 - Enables full feature support for:
-  - Responsive images (al_img_tools)
   - Mathematical rendering (al_math)
   - Chart visualization (al_charts)
   - Comment system (al_comments)
