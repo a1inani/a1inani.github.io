@@ -88,6 +88,8 @@
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
 
     &:hover {
       color: var(--global-hover-color);
