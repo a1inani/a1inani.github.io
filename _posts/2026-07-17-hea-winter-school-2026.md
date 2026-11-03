@@ -21,7 +21,7 @@ So my talk centered on a toolkit for program design and review that takes the AI
 
 {% include figure.liquid loading="eager" path="assets/img/hea-ws-2026/Alinani_Simukanga_HEA_Winter_School_2026.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-{% include figure.liquid loading="eager" path="assets/img/hea-ws-2026/badge.jpeg" class="img-fluid rounded z-depth-1" max-height="200px" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/hea-ws-2026/badge.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## The Presentation
 
