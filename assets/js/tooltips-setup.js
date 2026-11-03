@@ -1,1 +1,1 @@
-$(function(){$('[data-toggle="tooltip"]').tooltip()});
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("[title], [data-bs-original-title]").forEach(t=>{!t.getAttribute("title")&&t.dataset.bsOriginalTitle&&t.setAttribute("title",t.dataset.bsOriginalTitle)})});

@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-foundrydb-developer-log-1",
+        },{id: "post-hea-winter-school-2026-talk",
+        
+          title: "HEA Winter School 2026 Talk",
+        
+        description: "Gave a talk on &quot;Building Your AI-Ready Curriculum - A Practical Toolkit for Programme Design and Review&quot;",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hea-winter-school-2026/";
+          
+        },
+      },{id: "post-foundrydb-developer-log-1",
         
           title: "FoundryDB Developer Log 1",
         
@@ -98,6 +109,12 @@ ninja.data = [{
       },{id: "news-first-blog-post-is-up",
           title: 'First blog post is up!',
           description: "",
+          section: "News",},{id: "news-gave-an-invited-talk-at-the-hea-winter-school-2026",
+          title: 'Gave an invited talk at the HEA Winter School 2026',
+          description: "",
+          section: "News",},{id: "news-attended-the-data-train-the-trainers-2026-workshop-at-the-wits-innovation-centre-university-of-witwatersrand",
+          title: 'Attended the DATA Train-the-Trainers 2026 Workshop at the Wits Innovation Centre, University of...',
+          description: "",
           section: "News",},{id: "projects-iso-creator",
           title: 'ISO Creator',
           description: "",
@@ -124,11 +141,25 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/a1inani", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/Alinani_Simukanga_CV.pdf", "_blank");
         },
       },{
         id: 'social-scholar',
