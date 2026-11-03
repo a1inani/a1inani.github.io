@@ -55,11 +55,11 @@ apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL)
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-# Also remove the feed configuration we added
-# feed:
-#   collections:
-#     posts:
-#       path: /feed.xml
+# Feed configuration for jekyll-feed plugin
+feed:
+  collections:
+    posts:
+      path: /feed.xml
 
 # -----------------------------------------------------------------------------
 # Layout
