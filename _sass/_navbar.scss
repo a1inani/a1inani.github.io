@@ -9,8 +9,6 @@
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-  padding-top: 0.25rem !important;
-  padding-bottom: 0.25rem !important;
 
   .navbar-collapse-main {
     justify-content: flex-end;
@@ -86,15 +84,10 @@
 
   .navbar-brand {
     color: var(--global-text-color);
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    line-height: 1.2;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    padding-top: 0.25rem !important;
-    padding-bottom: 0.25rem !important;
 
     &:hover {
       color: var(--global-hover-color);
