@@ -215,7 +215,6 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-3rd-party-libraries
   - jekyll-archives-v2
   - jekyll-cache-bust
   - jekyll-email-protect
@@ -243,7 +242,6 @@ plugins:
   - al_analytics
   - al_citations
   - al_ext_posts
-  - al_img_tools
   - al_search
   - al_charts
   - al_math
