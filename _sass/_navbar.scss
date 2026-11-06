@@ -10,6 +10,11 @@
   background-color: var(--global-bg-color);
   opacity: 0.95;
 
+  &.fixed-top {
+    top: 0 !important;
+    position: fixed !important;
+  }
+
   .navbar-collapse-main {
     justify-content: flex-end;
     text-align: right;
