@@ -7,7 +7,7 @@ subtitle: Academic, Software Engineer, Tech Enthusiast
 profile:
   align: right
   image: profile.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
