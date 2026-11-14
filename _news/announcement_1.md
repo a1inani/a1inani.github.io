@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: First Blog Post Announcement
+date: 2025-10-08
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+First blog post is up!
