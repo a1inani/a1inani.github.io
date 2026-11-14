@@ -8,9 +8,9 @@
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-# dblp_url: # your DBLP profile url
+dblp_url: https://dblp.org/pid/370/3614.html # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-# email: you@example.com # your email address
+email: alinani.simukanga@cs.unza.zm # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 github_username: a1inani # your GitHub user name
@@ -24,10 +24,10 @@ github_username: a1inani # your GitHub user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
+linkedin_username: alinani-simukanga # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+orcid_id: 0000-0003-0768-4065 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
@@ -36,7 +36,7 @@ github_username: a1inani # your GitHub user name
 rss_icon: true # comment this line to hide the RSS icon
 cv_pdf: /assets/pdf/Alinani_Simukanga_CV.pdf # your downloadable CV PDF path
 scholar_userid: XD5cl70AAAAJ # your Google Scholar ID
-# scopus_id: # your profile on Scopus
+scopus_id: 57221999039 # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
 # stackoverflow_id: # your stackoverflow id
