@@ -34,7 +34,7 @@ github_username: a1inani # your GitHub user name
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 rss_icon: true # comment this line to hide the RSS icon
-work_url: /assets/pdf/Alinani_Simukanga_CV.pdf # your downloadable CV PDF path
+cv_pdf: /assets/pdf/Alinani_Simukanga_CV.pdf # your downloadable CV PDF path
 scholar_userid: XD5cl70AAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
