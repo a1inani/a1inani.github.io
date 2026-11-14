@@ -10,7 +10,7 @@ tags: top-100
 buy_link: https://www.amazon.com/dp/1949759229
 date: 2026-09-01
 started: 2026-09-01
-finished: -
+finished: "-"
 released: 2020-05-29
 stars: 4
 goodreads_review: 53642699
