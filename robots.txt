@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://a1inani.github.io/site-v1//sitemap.xml
+Sitemap: https://a1inani.github.io/sitemap.xml
