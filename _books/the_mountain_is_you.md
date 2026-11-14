@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: The Mountain Is You: Transforming Self-Sabotage Into Self-Mastery
+title: "The Mountain Is You: Transforming Self-Sabotage Into Self-Mastery"
 author: Brianna Wiest
 cover: 
 olid: OL34105393M # use Open Library ID to fetch cover (if no `cover` is provided)
