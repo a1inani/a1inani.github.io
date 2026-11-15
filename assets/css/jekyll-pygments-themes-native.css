@@ -48,18 +48,11 @@
   color: #e50808;
   font-weight: bold;
   background-color: #520000;
-} /* Comment.Special */
-.highlight .gd {
-  color: #d22323;
-} /* Generic.Deleted */
+} /* Comment.Special */ /* Generic.Deleted */
 .highlight .ge {
   color: #d0d0d0;
   font-style: italic;
-} /* Generic.Emph */ /* Generic.Error */
-.highlight .gh {
-  color: #ffffff;
-  font-weight: bold;
-} /* Generic.Heading */
+} /* Generic.Emph */ /* Generic.Error */ /* Generic.Heading */
 .highlight .gi {
   color: #589819;
 } /* Generic.Inserted */
@@ -76,11 +69,7 @@
 .highlight .kd {
   color: #6ab825;
   font-weight: bold;
-} /* Keyword.Declaration */
-.highlight .kn {
-  color: #6ab825;
-  font-weight: bold;
-} /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */
+} /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */
 .highlight .kt {
   color: #6ab825;
   font-weight: bold;
@@ -118,11 +107,7 @@
 } /* Name.Function */
 .highlight .nl {
   color: #d0d0d0;
-} /* Name.Label */
-.highlight .nn {
-  color: #447fcf;
-  text-decoration: underline;
-} /* Name.Namespace */
+} /* Name.Label */ /* Name.Namespace */
 .highlight .nx {
   color: #d0d0d0;
 } /* Name.Other */
@@ -151,28 +136,16 @@
 } /* Literal.Number.Integer */
 .highlight .mo {
   color: #3677a9;
-} /* Literal.Number.Oct */
-.highlight .sb {
-  color: #ed9d13;
-} /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Doc */
+} /* Literal.Number.Oct */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Doc */
 .highlight .s2 {
   color: #ed9d13;
-} /* Literal.String.Double */
-.highlight .se {
-  color: #ed9d13;
-} /* Literal.String.Escape */
+} /* Literal.String.Double */ /* Literal.String.Escape */
 .highlight .sh {
   color: #ed9d13;
-} /* Literal.String.Heredoc */
-.highlight .si {
-  color: #ed9d13;
-} /* Literal.String.Interpol */
+} /* Literal.String.Heredoc */ /* Literal.String.Interpol */
 .highlight .sx {
   color: #ffa500;
-} /* Literal.String.Other */ /* Literal.String.Regex */
-.highlight .s1 {
-  color: #ed9d13;
-} /* Literal.String.Single */ /* Literal.String.Symbol */
+} /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */
 .highlight .bp {
   color: #24909d;
 } /* Name.Builtin.Pseudo */ /* Name.Variable.Class */ /* Name.Variable.Global */
