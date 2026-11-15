@@ -5,6 +5,7 @@ date: 2025-10-30
 description: Building a first 2D platformer with JavaScript and HTML5 Canvas
 tags: JavaScript HTML5-Canvas Game-Development
 categories: Game-Development
+giscus_comments: true
 ---
 
 I decided to pause the AthenaEnv path for a while and focus on fundamentals. This short series documents my attempt to learn game development in plain JavaScript with HTML5 Canvas, without frameworks.

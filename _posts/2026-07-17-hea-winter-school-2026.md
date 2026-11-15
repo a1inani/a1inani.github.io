@@ -5,6 +5,7 @@ date: 2026-07-17
 description: 'Gave a talk on "Building Your AI-Ready Curriculum - A Practical Toolkit for Programme Design and Review"'
 tags: HEA-Winter-School-2026 Artificial-Intelligence Curriculum-Development
 categories: Academia
+giscus_comments: true
 ---
 
 Last month, I had the privilege of speaking at the HEA Winter School 2026 in Livingstone—a gathering of academics focused on "Strengthening Higher Education Curriculum Quality through Quality Assurance in the Era of Digital Transformation, and Artificial Intelligence."

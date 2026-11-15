@@ -5,6 +5,7 @@ date: 2025-11-11
 description: Building Phase 1 of a toy SQL database in Python
 tags: FoundryDB Python Databases SQL
 categories: Development
+giscus_comments: true
 ---
 
 > A behind-the-scenes look at building FoundryDB, a toy SQL database written from scratch in Python.

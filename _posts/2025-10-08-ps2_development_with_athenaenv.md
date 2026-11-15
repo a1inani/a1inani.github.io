@@ -5,6 +5,7 @@ date: 2025-10-08
 description: Porting 2048 to PlayStation 2 with AthenaEnv
 tags: PS2-Development AthenaEnv JavaScript
 categories: Game-Development
+giscus_comments: true
 ---
 
 For the better part of a year, I have been pulled toward game development. About a decade ago I tinkered with Unity (and Blender) through a YouTube playlist, built one small game, and stopped there. A couple of years later, I got my hands on a Phat PAL PS2 and a FreeMcBoot memory card.

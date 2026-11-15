@@ -5,6 +5,7 @@ date: 2025-10-14
 description: Building a C# utility for PlayStation 2 ISO creation
 tags: CSharp ISO Tooling
 categories: Game-Development
+giscus_comments: true
 ---
 
 So there I was with a full converted PlayStation 2 project in hand and ready to run. Executing it as an ELF file was fine, but I'm trying not to settle for fine. Wouldn't it be nice if it were packaged as an ISO file?
